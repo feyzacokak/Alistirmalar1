@@ -1,0 +1,6 @@
+for i in range(10,100):
+    for x in range(10,100):
+        if str(i)+str(x)==(int(str(i))+ int(str(x)))*11:
+            print(i)
+print(x)
+        
