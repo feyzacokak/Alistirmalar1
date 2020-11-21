@@ -1,0 +1,6 @@
+x=list()
+for i in range(2,125):
+    if 125%i==200%i==350%i:
+        x.append(i)
+        a=max(x)
+print(a)
