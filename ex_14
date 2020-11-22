@@ -1,0 +1,13 @@
+a=list()
+b=list()
+for i in range (36,3367):
+    for x in range(36,3367):
+        if (i)*(x)==121212:
+            a.append(x)
+            b.append(i)
+            if len(a)%2==0:
+                sonuc=a[int(len(a)/2)] 
+            if len(b)%2==0:
+                    sonuc_1=b[int(len(b)/2)] 
+print(sonuc)
+print(sonuc_1)
