@@ -1,0 +1,11 @@
+x=input(" bir sayı girin.")
+for i in range(2,int(x)):
+    bolen=1
+    if int(x)%i==0:
+        bolen+=i
+if(bolen!=0):
+        print("bu asal sayı değildir")
+    
+else:
+     print("bu bir asal sayıdır.")
+        
