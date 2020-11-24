@@ -1,0 +1,9 @@
+bolen=list()
+asal=list()
+for i in range (10000,100000):
+    for j in range(2,i):
+        if  i%j==0:
+            bolen.append(j)
+    if len(bolen)==0:
+        asal.append(i)
+print(asal)
